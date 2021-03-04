@@ -4,14 +4,14 @@
         <title>Delani-studio</title>
         <link rel="stylesheet" type="text/css" href="CSS/style.css">
         <link rel="stylesheet" href="CSS/fontawesome-free-5.15.2-web/css/all.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Shippori Mincho">
     </head>
     <body>
         <div class="title">
-            <img src="image/h_img.jpg">
+            <img src="image/h_img.gif">
             <h1>WELCOME</h1>
             <h1>TO DELANI STUDIO</h1>
             <h3>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</h3>
-            <i class=""
         </div>
 
         <div class="main">
@@ -23,21 +23,27 @@
         </div>
 
         <div class="sub-main">
-            <h2>SERVICES</h2>
-                <img src="image/s_image.jpg">
+              <h2>SERVICES</h2>
                 <p>Before we sign a contract or write a line of code our team will spend the necessary time needed to understand your product vision</p>
                 <p>The outcome of this scoping session in a proposal or high-level statement of work.</p>
                 <p>Based on your requirements, we can provide a complete offering or just pieces you need</p>
         </div>
-        <div class="block">
+        <div class="box">
             <h2>WHAT WE DO</h2>
-            <h3>DEVELOPMENT</h3>
+            <img src="image/design_icon.png"><h3>DESIGN</h3>
+        </div>
+        <div class="box">
+            <img src="image/dev_icon.png"><h3>DEVELOPMENT</h3>
+        </div>
+        <div class="box">
+            <img src="image/product_icon.png"><h3>PRODUCT MANAGEMENT</h3>
         </div>
         <br>
 
 
-        <h2>PORTOLIO</h2>
+        
             <div class="block-1">
+            <h2>PORTFOLIO</h2>
                 <img src="image/work4.jpg">
                 <img src="image/work3.jpg">
                 <img src="image/work2.jpg">
@@ -54,21 +60,40 @@
             <br>
 
             <div class="block-3">
-                <img src="image/c_image.jpg">
+                <h3>CONTACT US</h3>
+                <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
                 <label for="Name">Name:</label>
                 <br>
                 <input type="text" id="name" name="name" placeholder="Name..."required><br>
                 <label>E-mail address:</label>
+                <br>
                 <input type="email" name="email-address" placeholder="Email..."required><br>
+                <br>
                 <label for="Your message here">Your message here:</label>
+                <br>
                 <input type="text" name="Your message"placeholder="Your message here..."required><br>
-
+                <br>
+                <input type="button" onclick="myfunction()" value="Submit">
+                <br>
+                </form>
             </div>
-
-
+            <br>
+            <div class="block-4">
+                <img src="image/social_icons/twitter.png">
+                <img src="image/social_icons/dribble.png">
+                <img src="image/social_icons/facebook.png">
+                <img src="image/social_icons/g_plus.png">
+                <img src="image/social_icons/skype.png">
+                <img src="image/social_icons/stumble_upon.png">
+                <img src="image/social_icons/behance.png">
+                <img src="image/social_icons/pinterest.png">
+                <img src="image/social_icons/flickr.png">
+            </div>
             <footer>
                 <h3>DELANI STUDIO</h3>
                 <h4>2019</h4>
             </footer>
+    
+        <script type="text/javascript" src="JS/script.js"></script>
    </body>
 </html>
