@@ -57,7 +57,7 @@ footer{
 .block-4 img{
     align-content: center;
 }
-input[type=submit] {
+input[type=button] {
   width: 50%;
   background-color: #178031;
   color: white;
@@ -67,6 +67,10 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
 }
-input[type=submit]:hover {
+input[type=button]:hover {
   background-color: #4cdf7d;
+}
+.block-1{
+    position:relative;
+    width:auto;
 }
