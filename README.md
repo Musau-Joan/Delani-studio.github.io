@@ -10,3 +10,4 @@ HTML,CSS and Javascript were incorporated in the making of the site.jQuery and b
 in case of any queries, anyone can find me at kalekyemusau@yahoo.com.
 MIT license was used for this project.
 Copyright(c) {2021] {Musau-Joan}
+Link to the live site:https://delani-studioes.netlify.app/
